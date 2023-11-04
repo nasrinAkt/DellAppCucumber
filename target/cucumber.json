@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can create an account",
+        "description": "",
+        "id": ";verify-user-can-create-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5027742300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open dell application",
+            "match": {
+              "location": "StepClass.open_dell_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2162793400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "mouse hover on signin",
+            "match": {
+              "location": "StepClass.mouse_hover_on_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2234063100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click create an account",
+            "match": {
+              "location": "StepClass.click_create_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4252120400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter first name",
+            "match": {
+              "location": "StepClass.enter_first_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2269508600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter last name",
+            "match": {
+              "location": "StepClass.enter_last_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "signin.feature"
+  }
+]
